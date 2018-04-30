@@ -1,0 +1,43 @@
+{
+  "name": "under-yo",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "bootstrap": "4.1.0",    
+    "particles.js": "^2.0.0",    
+    "slick-carousel": "^1.8.1",
+    "animate.css": "^3.5.2"
+  },
+  "overrides": {
+    "jquery" : {
+      "main" : ["./dist/jquery.slim.min.js",
+        "./dist/jquery.min.js"]
+    },
+    "popper.js" : {
+      "main" : ["./dist/umd/popper.min.js"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "./dist/css/bootstrap.min.css",
+        "./dist/js/bootstrap.min.js"
+      ]
+    },
+    "particles.js" : {
+      "main" : ["./particles.min.js"
+      ]
+    },
+    "slick-carousel": {
+      "main": [
+        "./slick/slick.css",
+        "./slick/slick-theme.css",
+        "./slick/slick.min.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
